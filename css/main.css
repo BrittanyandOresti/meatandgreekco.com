@@ -1,0 +1,122 @@
+@@font-face {
+  font-family: 'ZALESK'; src: url('../font/ZALESK.TTF');
+}
+
+header, body {
+  background-image: url('../images/greek-vase.png');
+}
+
+.fa {
+  font-size: 2em;
+}
+
+.callnow {
+  margin-bottom: -5vh;
+}
+
+#Logo {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 1%;
+  margin-bottom: 2%;
+
+}
+
+header {
+  /* border-bottom: 5px solid blue; */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+li, a{
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Calistoga', cursive;
+  font-size: 1.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.key, .key2 {
+  background-image: url("../images/greek_key.png");
+  background-repeat: repeat-x;
+  background-size: 5% ;
+  height: 5vh;
+  margin-bottom: -5vh;
+}
+
+.key2 {
+  margin-top: 5vh;
+}
+/* S
+TART OF THE BODY */
+/* SECTION ONE - TOP THREE BOXES */
+
+
+/* To separate the div's with flex and make them three in a row */
+
+.first_three_boxes {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.box1, .box2, .box3  {
+  width: 25%;
+  border: 5px solid blue;
+  background-color: #f2f2f2;
+}
+.box1 {
+    overflow: hidden;
+}
+#group_photo {
+  height: 95%;
+  padding: 2%;
+  margin-left: -8ivw;
+}
+
+h2 {
+  padding: 2%;
+  text-align: center;
+}
+
+.box3 h1 {
+  font-size: 1em;
+  padding: 2%;
+  text-align: center;
+}
+
+/********************* SECOND SECTION */
+
+.second_section {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 15vh;
+}
+
+.box2_1 {
+  height: 25%;
+}
+
+.box2_2 p {
+font-family: 'Josefin Sans', sans-serif;
+  width:  80%;
+  margin-left: 5vw;
+  font-size: 2em;
+}
+/*********************** FOOTER SECTION */
+.foot_div {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
