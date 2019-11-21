@@ -1,0 +1,19 @@
+{
+  "name": "meatandgreekco.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eatery_orders.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrittanyandOresti/meatandgreekco.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrittanyandOresti/meatandgreekco.com/issues"
+  },
+  "homepage": "https://github.com/BrittanyandOresti/meatandgreekco.com#readme"
+}
