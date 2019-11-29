@@ -1,3 +1,15 @@
 header, body {
   background-image: url('../images/regal.png');
 }
+
+.menus img{
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 3%;
+}
+
+.margin {
+  text-align: center;
+  font-family: Calistoga;
+  margin-top: 3%;
+}
