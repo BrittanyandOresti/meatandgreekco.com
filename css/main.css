@@ -1,6 +1,13 @@
 @@font-face {
   font-family: 'ZALESK'; src: url('../font/ZALESK.TTF');
 }
+/* to change the menu nav bar when in mobile version */
+@media (max-width: 600px) {
+  .box2{
+    background-color: red;
+  }
+
+}
 
 .fa {
   font-size: 2em;
