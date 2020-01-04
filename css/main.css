@@ -17,7 +17,7 @@
     .first_three_boxes {
       display: flex;
       flex-direction: column;
-      width: 400%;
+      width: 600%;
     }
 
     .second_section {
@@ -49,7 +49,7 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 1%;
+  margin-top: 15%;
   margin-bottom: 2%;
 }
 
