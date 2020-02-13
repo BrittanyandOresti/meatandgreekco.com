@@ -7,7 +7,10 @@
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-
+    body {
+      width: 100vw;
+    }
+    
     nav {
       display: flex;
       justify-content: space-around;
@@ -17,7 +20,10 @@
     .first_three_boxes {
       display: flex;
       flex-direction: column;
-      width: 600%;
+    }
+
+    .box1, .box2, .box3 {
+      width: 100vw;
     }
 
     .second_section {
@@ -31,8 +37,8 @@
 
     .box2_1 img {
       float: left;
+      width: 100vw;
     }
-
 }
 
 .fa {
