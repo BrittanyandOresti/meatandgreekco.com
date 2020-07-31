@@ -1,3 +1,7 @@
 header, body {
   background-image: url('../images/greek-vase.png');
 }
+
+header {
+  margin-top: -5%;
+}
